@@ -2,9 +2,13 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
+  background: #141e1e;
 }
 
 #maintainer {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
   width: 80%;
   height: 100vh;
 }
@@ -13,18 +17,13 @@ body {
   width: auto;
   height: auto;
   margin: auto;
+  padding-top: 1em;
 }
-#maintainer header .white {
+#maintainer header .bone {
   color: bisque;
 }
-#maintainer header .funct {
+#maintainer header .burn {
   color: #943e16;
-}
-#maintainer header .inner {
-  color: bisque;
-}
-#maintainer header .thesis {
-  color: goldenrod;
 }
 #maintainer header .bracket {
   color: goldenrod;
@@ -53,18 +52,11 @@ body {
 #maintainer main {
   height: 70vh;
   color: bisque;
-  text-align: center;
-}
-#maintainer main #who {
-  width: auto;
-  color: bisque;
-  text-align: center;
-  font-size: 10vw;
 }
 #maintainer footer {
   height: 10vh;
   color: bisque;
-  align-self: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -7,9 +7,11 @@
 
 body {
   @include boilerPlate();
+  background: colors.$bgDark;
 }
 
 #maintainer {
+  @include boilerPlate();
   width: 80%;
   height: 100vh;
 
@@ -18,6 +20,7 @@ body {
     width: auto;
     height: auto;
     margin: auto;
+    padding-top: 1em;
     @include colors.headerColors();
 
     .active {
@@ -48,21 +51,11 @@ body {
   main {
     height: 70vh;
     color: bisque;
-    // font-size: 3em;
-    text-align: center;
-
-    #who {
-      width: auto;
-      color: bisque;
-      text-align: center;
-      font-size: 10vw;
-    }
   }
 
   footer {
     height: 10vh;
     color: bisque;
-    align-self: center;
-    // font-size: 2em;
+    text-align: center;
   }
 }

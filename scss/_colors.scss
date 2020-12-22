@@ -3,18 +3,11 @@ $navLinks: rgb(118, 109, 172);
 $bgDark: rgb(20, 30, 30);
 
 @mixin headerColors {
-  .white {
+  .bone {
     color: bisque;
   }
-  .funct {
+  .burn {
     color: $burnt;
-  }
-  .inner {
-    color: bisque;
-  }
-
-  .thesis {
-    color: goldenrod;
   }
 
   .bracket {
