@@ -1,0 +1,70 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#maintainer {
+  width: 80%;
+  height: 100vh;
+}
+#maintainer header {
+  font-size: 2.5vw;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+#maintainer header .white {
+  color: bisque;
+}
+#maintainer header .funct {
+  color: #943e16;
+}
+#maintainer header .inner {
+  color: bisque;
+}
+#maintainer header .thesis {
+  color: goldenrod;
+}
+#maintainer header .bracket {
+  color: goldenrod;
+}
+#maintainer header .active {
+  text-decoration: underline;
+  color: bisque;
+}
+#maintainer header .active a:hover {
+  color: bisque;
+}
+#maintainer header nav {
+  padding-left: 3vw;
+  margin: 0 auto;
+}
+#maintainer header nav a {
+  color: #766dac;
+  text-decoration: none;
+}
+#maintainer header nav a:hover {
+  color: #943e16;
+}
+#maintainer header nav a:active {
+  color: bisque;
+}
+#maintainer main {
+  height: 70vh;
+  color: bisque;
+  text-align: center;
+}
+#maintainer main #who {
+  width: auto;
+  color: bisque;
+  text-align: center;
+  font-size: 10vw;
+}
+#maintainer footer {
+  height: 10vh;
+  color: bisque;
+  align-self: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
