@@ -16,12 +16,13 @@ body {
   height: 100vh;
 
   header {
-    font-size: 2.5vw;
+    font-size: 2vw;
     width: auto;
     height: auto;
     margin: auto;
     padding-top: 1em;
     @include colors.headerColors();
+    font-family: "Fira Code", monospace;
 
     .active {
       text-decoration: underline;
