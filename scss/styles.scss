@@ -11,25 +11,22 @@ body {
 }
 
 #maintainer {
-  @include boilerPlate();
+  padding: 0;
+  margin: 0 auto;
   width: 80%;
   height: 100vh;
 
   header {
     font-size: 2vw;
-    width: auto;
-    height: auto;
-    margin: auto;
+    display: flex;
     padding-top: 1em;
     @include colors.headerColors();
     font-family: "Fira Code", monospace;
 
-    .active {
-      text-decoration: underline;
-      color: bisque;
-      a:hover {
-        color: bisque;
-      }
+    #headwrap {
+      padding: 0;
+      margin: 0 auto;
+      width: auto;
     }
 
     nav {

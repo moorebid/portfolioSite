@@ -6,7 +6,6 @@ body {
 }
 
 #maintainer {
-  box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
   width: 80%;
@@ -14,9 +13,7 @@ body {
 }
 #maintainer header {
   font-size: 2vw;
-  width: auto;
-  height: auto;
-  margin: auto;
+  display: flex;
   padding-top: 1em;
   font-family: "Fira Code", monospace;
 }
@@ -29,12 +26,10 @@ body {
 #maintainer header .bracket {
   color: goldenrod;
 }
-#maintainer header .active {
-  text-decoration: underline;
-  color: bisque;
-}
-#maintainer header .active a:hover {
-  color: bisque;
+#maintainer header #headwrap {
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
 }
 #maintainer header nav {
   padding-left: 3vw;
