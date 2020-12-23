@@ -1,5 +1,62 @@
+@use 'colors';
 @mixin boilerPlate {
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
+}
+
+body {
+  @include boilerPlate();
+  background: colors.$bgDark;
+}
+
+#maintainer {
+  @include boilerPlate();
+  width: 80%;
+  height: 100vh;
+
+  header {
+    font-size: 2vw;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-top: 1em;
+    @include colors.headerColors();
+    font-family: "Fira Code", monospace;
+
+    .active {
+      text-decoration: underline;
+      color: bisque;
+      a:hover {
+        color: bisque;
+      }
+    }
+
+    nav {
+      padding-left: 3vw;
+      margin: 0 auto;
+      a {
+        color: colors.$navLinks;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: colors.$burnt;
+      }
+      a:active {
+        color: bisque;
+      }
+    }
+  }
+
+  main {
+    height: 70vh;
+    color: bisque;
+  }
+
+  footer {
+    height: 10vh;
+    color: bisque;
+    text-align: center;
+  }
 }

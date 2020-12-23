@@ -1,3 +1,63 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  background: #141e1e;
+}
 
+#maintainer {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+}
+#maintainer header {
+  font-size: 2vw;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding-top: 1em;
+  font-family: "Fira Code", monospace;
+}
+#maintainer header .bone {
+  color: bisque;
+}
+#maintainer header .burn {
+  color: #943e16;
+}
+#maintainer header .bracket {
+  color: goldenrod;
+}
+#maintainer header .active {
+  text-decoration: underline;
+  color: bisque;
+}
+#maintainer header .active a:hover {
+  color: bisque;
+}
+#maintainer header nav {
+  padding-left: 3vw;
+  margin: 0 auto;
+}
+#maintainer header nav a {
+  color: #766dac;
+  text-decoration: none;
+}
+#maintainer header nav a:hover {
+  color: #943e16;
+}
+#maintainer header nav a:active {
+  color: bisque;
+}
+#maintainer main {
+  height: 70vh;
+  color: bisque;
+}
+#maintainer footer {
+  height: 10vh;
+  color: bisque;
+  text-align: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
