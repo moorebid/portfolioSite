@@ -10,10 +10,6 @@ body {
   background: colors.$bgDark;
 }
 
-#windowstuff {
-  color: colors.$bone;
-}
-
 #maintainer {
   @include boilerPlate();
   width: 80%;
@@ -52,6 +48,24 @@ body {
   main {
     height: 70vh;
     color: bisque;
+    // text-align: center;
+    #construction {
+      padding-top: 2em;
+      margin: 0 auto;
+      font-size: 2em;
+      width: 80%;
+      a {
+        color: colors.$navLinks;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: colors.$burnt;
+      }
+      a:active {
+        color: bisque;
+      }
+    }
   }
 
   footer {

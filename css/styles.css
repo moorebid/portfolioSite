@@ -5,10 +5,6 @@ body {
   background: #141e1e;
 }
 
-#windowstuff {
-  color: bisque;
-}
-
 #maintainer {
   box-sizing: border-box;
   padding: 0;
@@ -52,6 +48,22 @@ body {
 }
 #maintainer main {
   height: 70vh;
+  color: bisque;
+}
+#maintainer main #construction {
+  padding-top: 2em;
+  margin: 0 auto;
+  font-size: 2em;
+  width: 80%;
+}
+#maintainer main #construction a {
+  color: #766dac;
+  text-decoration: none;
+}
+#maintainer main #construction a:hover {
+  color: #943e16;
+}
+#maintainer main #construction a:active {
   color: bisque;
 }
 #maintainer footer {
