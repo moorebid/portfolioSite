@@ -5,7 +5,12 @@ body {
   background: #141e1e;
 }
 
+#windowstuff {
+  color: bisque;
+}
+
 #maintainer {
+  box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
   width: 80%;

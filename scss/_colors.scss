@@ -1,16 +1,18 @@
 $burnt: rgb(148, 62, 22);
 $navLinks: rgb(118, 109, 172);
 $bgDark: rgb(20, 30, 30);
+$bone: rgb(255, 228, 196);
+$bracket: rgb(218, 165, 32);
 
 @mixin headerColors {
   .bone {
-    color: bisque;
+    color: $bone;
   }
   .burn {
     color: $burnt;
   }
 
   .bracket {
-    color: goldenrod;
+    color: $bracket;
   }
 }
